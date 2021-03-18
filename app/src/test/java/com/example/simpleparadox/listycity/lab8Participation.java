@@ -27,7 +27,7 @@ public class lab8Participation {
         assertEquals(0, city.compareTo(citylist.getCities().get(0)));
         assertEquals(0, mockCity().compareTo(citylist.getCities().get(1)));
 
-        citylist.getCities().get(0).changeName("asdf");
+        citylist.changeName(0, "asdf");
 
         City c = new City("asdf", "Prince Edward Island");
 

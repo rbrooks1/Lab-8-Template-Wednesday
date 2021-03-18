@@ -79,4 +79,6 @@ public class CityList {
     }
 
 
+    public void changeName(int location, String newName) {
+    }
 }

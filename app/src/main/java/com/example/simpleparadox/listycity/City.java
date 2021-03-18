@@ -22,6 +22,4 @@ public class City implements Comparable<City>{
         return city.compareTo(o.getCityName());
     }
 
-    public void changeName(String newName) {
-    }
 }
