@@ -77,4 +77,14 @@ public class CityList {
     public int countCities() {
         return cities.size();
     }
+
+
+    public void changeName(int location, String newName) {
+        String oldProv;
+        City c = cities.get(location);
+        oldProv = c.getProvinceName();
+        this.cities.remove(c);
+        City newC = new City(newName, oldProv);
+        this.cities.add(newC);
+    }
 }
